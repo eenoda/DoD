@@ -16,6 +16,7 @@ header {
 
 h1, p {
   margin: 0;
+  font-family: "GB";
 }
 
 main {
@@ -61,7 +62,15 @@ div {
 }
 
 h2 {
+	font-family: 'GL';
+  color: #FCF6F5;
     
-    color: #FCF6F5;
-    
+}
+@font-face {
+  font-family: 'GL';
+  src: url('fonts/GmarketSansTTFLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GB';
+  src: url('fonts/GmarketSansTTFBold.ttf') format('truetype');
 }
