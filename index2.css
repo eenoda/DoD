@@ -42,22 +42,26 @@ span {
     
 }
 
-h1 {
+b {
     
-    color: azure
+    color: #DDC6B6
+        
 }
 
 body {
     
     background-color: #161616;
-    background-image: url(image/Dungeon%20Of%20Demon(%EC%84%B8%EB%B6%80%EC%A0%95%EB%B3%B4).png
     
 }
 
-p {
+div {
     
-    color: #ffffff;
-    font-size: 300%;
     text-align: center;
+    
+}
+
+h2 {
+    
+    color: #FCF6F5;
     
 }
