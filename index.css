@@ -68,11 +68,20 @@ h2 {
 
 h1 {
     
-    color: azure
+  font-family: "GB";
+  color: azure
 }
 
 a { 
     
     text-decoration:none 
 
+}
+@font-face {
+  font-family: 'GL';
+  src: url('fonts/GmarketSansTTFLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GB';
+  src: url('fonts/GmarketSansTTFBold.ttf') format('truetype');
 }
