@@ -1,0 +1,47 @@
+body {
+margin: 0;  
+background-color: #161616;
+}
+
+a {
+text-decoration: none;
+color: azure;
+}
+
+span {
+color: #E84127;
+}
+
+b:hover {
+color: azure;
+}
+
+.navbar {   
+position: fixed;
+width: 99%;
+z-index: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #161616;
+padding: 8px 22px;
+}
+
+.navbar_logo {
+font-size: 34px;
+}
+
+.navbar_menu {
+display: flex;
+list-style: none;
+padding-left: 0;
+}
+
+.navbar_menu li {
+padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+background-color: #ED6F63;
+border-radius: 2px;
+}
