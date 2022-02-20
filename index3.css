@@ -7,6 +7,13 @@ a {
 text-decoration: none;
 color: azure;
 }
+th{
+    color: azure;
+}
+
+td{
+    color: azure;
+}
 
 span {
 color: #E84127;
@@ -16,6 +23,9 @@ b:hover {
 color: azure;
 }
 
+strong {
+    color: #FCEDDA;
+}
 .navbar {   
 position: fixed;
 width: 99%;
@@ -26,7 +36,10 @@ align-items: center;
 background-color: #161616;
 padding: 8px 22px;
 }
-
+h2{
+    color:#ED6F63;
+    font-family: "GL";
+}
 .navbar_logo {
 font-size: 34px;
 }
@@ -80,4 +93,13 @@ vertical-align: top;
 border-right: 1px solid #ccc;
 border-bottom: 1px solid #ccc;
 background: #646464;
+}
+@font-face {
+  font-family: 'GL';
+  src: url('fonts/GmarketSansTTFLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GB';
+  src: url('fonts/GmarketSansTTFBold.ttf') format('truetype');
 }
