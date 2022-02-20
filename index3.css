@@ -7,11 +7,11 @@ a {
 text-decoration: none;
 color: azure;
 }
-th{
+th {
     color: azure;
 }
 
-td{
+td {
     color: azure;
 }
 
@@ -36,7 +36,7 @@ align-items: center;
 background-color: #161616;
 padding: 8px 22px;
 }
-h2{
+h2 {
     color:#ED6F63;
     font-family: "GL";
 }
