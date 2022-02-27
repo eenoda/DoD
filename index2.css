@@ -16,6 +16,14 @@ b:hover {
 color: azure;
 }
 
+
+.background {
+  position: absolute;
+  transform: translate3d(0, 0, 0);
+  width: 100%;
+  float: "top";
+}
+
 .navbar {   
 position: fixed;
 width: 99%;
@@ -51,7 +59,8 @@ span {
 }
 
 strong {
-    color: #DDC6B6;
+  font-family: 'GB';
+  color: #DDC6B6;
 }
 
 body {
@@ -70,9 +79,11 @@ h2 {
 @font-face {
   font-family: 'GL';
   src: url('fonts/GmarketSansTTFLight.ttf') format('truetype');
+  font-weight: 700;
 }
 
 @font-face {
   font-family: 'GB';
-  src: url('fonts/GmarketSansTTFBold.ttf') format('truetype');
+  src: url('fonts/GmarketSansTTFMedium.ttf') format('truetype');
+  font-weight: 200;
 }

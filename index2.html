@@ -1,4 +1,6 @@
 <!doctype html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <html lang="ko">
 <head>
     <meta charset="utf-8">
@@ -6,6 +8,17 @@
     <link rel="stylesheet" href="index2.css">
     <title>Dungeon of Demon</title>
 </head>
+<SCRIPT LAUNGUAGE='JAVASCRIPT'>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+
+            var scroll = $(this).scrollTop();
+            var _scroll = -scroll/2.5;
+
+            $('.background').css({'transform' : 'translate3d(0,'+ -_scroll +'px,0)'})
+        });
+    });
+</SCRIPT>
 <body>
     <nav class="navbar">
         <div class="navbar_logo">
@@ -17,12 +30,13 @@
             <li><a href="index3.html" target="_blank"><span><b>다운로드</b></span></a></li>
         </ul>
     </nav>
-            <img src="image/Dungeon%20Of%20Demon(%EC%84%B8%EB%B6%80%EC%A0%95%EB%B3%B4).png" style="float: top;  margin-top: 75px;" width="100%">   
 
-
-        <div>
-            <h1><br><br>
-                <strong>세부정보</strong>
+    <img src="image/Dungeon Of Demon(세부정보).png" class="background" style="margin-top: 65px;">
+    <img src="image/Basic.png" width="100%" style="transform: translate3d(0, 490px, 1000px)">
+        <div style="transform: translate3d(0, 0, 1001px);">
+            <br>
+            <h1>
+                <strong>세부정보</strong> <span></span>
             </h1>
                 <h2>
                     Dungeon Of Demon은 로그라이크 기반의 게임입니다. 여러 영혼들을 직접 조합하여 사용할 수 있으며<br>

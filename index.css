@@ -16,6 +16,13 @@ b:hover {
 color: azure;
 }
 
+
+.background {
+  position: absolute;
+  transform: translate3d(0, 0, 0);
+  float: "top";
+}
+
 .navbar {   
 position: fixed;
 width: 99%;
@@ -56,7 +63,9 @@ body {
 
 @font-face {
   font-family: 'GL';
-  src: url('fonts/GmarketSansTTFLight.ttf') format('truetype');
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff%27') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
